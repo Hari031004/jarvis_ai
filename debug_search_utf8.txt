@@ -1,0 +1,119 @@
+﻿F:\Jarvis-AI\run_with_ui.py:5: 2. Initializes the PySide6 QApplication and the JarvisWindow HUD interface.
+F:\Jarvis-AI\run_with_ui.py:23: # Add jarvis-ui/project folder to sys.path so PySide6 modules can import ui.*
+F:\Jarvis-AI\run_with_ui.py:28: from PySide6.QtWidgets import QApplication
+F:\Jarvis-AI\run_with_ui.py:40: # 1. Initialize PySide6 Application
+F:\Jarvis-AI\.venv\Lib\site-packages\PIL\ImageQt.py:38: ["side6", "PySide6"],
+F:\Jarvis-AI\.venv\Lib\site-packages\PIL\ImageQt.py:49: elif qt_module == "PySide6":
+F:\Jarvis-AI\.venv\Lib\site-packages\PIL\ImageQt.py:50: from PySide6.QtCore import (  # type: ignore[assignment]
+F:\Jarvis-AI\.venv\Lib\site-packages\PIL\ImageQt.py:55: from PySide6.QtGui import QImage, QPixmap, qRgba  # type: ignore[assignment]
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\__init__.py:51: # embed rpaths into the PySide6 libraries that would point to
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\__init__.py:69: print(f"PySide6/__init__.py: Unable to import Shiboken from {paths}: {e}",
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\__init__.py:79: # On Windows, add the PySide6\openssl folder (created by setup.py's
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\__init__.py:144: Shiboken.replaceModuleDict(sys.modules["PySide6"], SubModule, ModuleDict(globals()))
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\QtAsyncio\events.py:5: from PySide6.QtCore import (QCoreApplication, QDateTime, QDeadlineTimer,
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:5: """ pyside6-deploy deployment tool
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:7: Deployment tool that uses Nuitka to deploy PySide6 applications to various desktop (Windows,
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:12: Command: pyside6-deploy path/to/main_file
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:13: pyside6-deploy (incase main file is called main.py)
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:14: pyside6-deploy -c /path/to/config_file
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:28: Note: This file is used by both pyside6-deploy and pyside6-android-deploy
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:68: Entry point for pyside6-deploy command.
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:75: # In case pyside6-deploy is run from a completely different location than the project directory
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:83: Run "pyside6-deploy --help" to see info about CLI options.
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:85: pyside6-deploy exiting..."""))
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:132: # If modules contain QtSql and the platform is macOS, then pyside6-deploy will not work
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy.py:138: print("[DEPLOY] QtSql Application is not supported on macOS with pyside6-deploy")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\metaobjectdump.py:366: for n in node.names:  # "import PySide6.QtWidgets"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\metaobjectdump.py:370: if "." in node.module:  # "from PySide6.QtWidgets import QWidget"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\metaobjectdump.py:372: elif node.module == "PySide6":  # "from PySide6 import QtWidgets"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\metaobjectdump.py:378: if mod.startswith("PySide6."):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\metaobjectdump.py:411: # Non-standard QML-related values for pyside6-build usage
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:17: pyside6-project is a command line tool for creating, building and deploying Qt for Python
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:35: UIC_CMD = "pyside6-uic"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:36: RCC_CMD = "pyside6-rcc"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:37: LRELEASE_CMD = "pyside6-lrelease"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:38: LUPDATE_CMD = "pyside6-lupdate"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:39: QMLTYPEREGISTRAR_CMD = "pyside6-qmltyperegistrar"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:40: QMLLINT_CMD = "pyside6-qmllint"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:41: QSB_CMD = "pyside6-qsb"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project.py:42: DEPLOY_CMD = "pyside6-deploy"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\pyside_tool.py:13: import PySide6 as ref_mod
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\pyside_tool.py:42: # This will take care of "pyside6-lupdate" listed as an entrypoint
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\pyside_tool.py:51: # Taking care of pyside6-uic, pyside6-rcc, and pyside6-designer
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\pyside_tool.py:233: print("pyside6-android-deploy only works from a Unix host and not a Windows host",
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:5: """pyside6-qml tool implementation. This tool mimics the capabilities of qml runtime utility
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:16: from PySide6.QtCore import QCoreApplication, Qt, QLibraryInfo, QUrl, SignalInstance
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:17: from PySide6.QtGui import QGuiApplication, QSurfaceFormat
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:18: from PySide6.QtQml import QQmlApplicationEngine, QQmlComponent
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:19: from PySide6.QtQuick import QQuickView, QQuickItem
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qml.py:20: from PySide6.QtWidgets import QApplication
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\commands.py:46: Runs pyside6-qmlimportscanner to find all the imported qml modules in project_dir
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\commands.py:49: cmd = ["pyside6-qmlimportscanner", "-rootPath", str(project_dir)]
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\config.py:458: f"Build the project using 'pyside6-project build' or compile "
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\config.py:459: f"the resources manually using pyside6-rcc")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:109: if main_mod_name == "PySide6.QtCore":
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:110: # considers 'from PySide6.QtCore import QtMicrophonePermission'
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:122: if full_mod_name == "PySide6":
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:149: mod_pattern = re.compile("PySide6.Qt(?P<mod_name>.*)")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:159: if main_mod_name and main_mod_name.startswith("PySide6"):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:160: if main_mod_name == "PySide6":
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:161: # considers 'from PySide6 import QtCore'
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:168: # considers 'from PySide6.QtCore import Qt'
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:180: if full_mod_name == "PySide6":
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:195: ValueError("[DEPLOY] No PySide6 modules were found")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:233: Finds the path to the Qt libs directory inside PySide6 package installation
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:238: self.pyside_install_dir = Path(possible_site_package) / "PySide6"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:243: print("Unable to find where PySide6 is installed. Exiting ...")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\dependency_util.py:311: pyside_wheels = ["PySide6_Essentials", "PySide6_Addons"]
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\nuitka_helper.py:22: # plugins to ignore. The sensible plugins are include by default by Nuitka for PySide6
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\nuitka_helper.py:135: # These files are not relevant for PySide6 applications
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\nuitka_helper.py:149: "--enable-plugin=pyside6",
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\nuitka_helper.py:159: # for plugins within PySide6/Qt/plugins folder, and the following plugins
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\nuitka_helper.py:160: # are not present in the PySide6/Qt/plugins folder
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\python_helper.py:30: response = input(("You are not using a virtual environment. pyside6-deploy needs "
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:24: IMPORT_WARNING_PYSIDE = (f"[DEPLOY] Found 'import PySide6' in file {0}"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:25: ". Use 'from PySide6 import <module>' or pass the module"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:39: This occurs when you have 'import PySide6' in your code instead
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:40: 'from PySide6 import <module>'. The module name is specified
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:48: # don't exist in site-package under PySide6/Qt/plugins
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:55: Returns all the modules installed with PySide6
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:57: import PySide6
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\deploy_lib\__init__.py:60: return [module[2:] for module in PySide6.__all__]
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:24: from PySide6.QtWidgets import QApplication, QMainWindow
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:81: from PySide6.QtGui import QGuiApplication
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:82: from PySide6.QtCore import QUrl
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:83: from PySide6.QtQml import QQmlApplicationEngine
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:187: print(f'Run "pyside6-project build {project_dir}" to build the project')
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\newproject.py:188: print(f'Run "pyside6-project run {project_dir / "main.py"}" to run the project')
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:21: Write minimal TOML content with project and tool.pyside6-project sections.
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:31: if data.get("tool") and data['tool'].get('pyside6-project'):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:32: lines.append('\n[tool.pyside6-project]')
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:33: for key, value in sorted(data['tool']['pyside6-project'].items()):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:57: pyside_table = tool_entry.get("pyside6-project", {})
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:59: result.errors.append("Missing [tool.pyside6-project] table")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:62: if rcc_table := tool_entry.get("pyside6-rcc", {}):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:65: if uic_table := tool_entry.get("pyside6-uic", {}):
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:93: "pyside6-project": {"files": sorted(project_files)}
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:188: "pyside6-project": {"files": relative_files}
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:193: # For an already existing file, append our tool.pyside6-project section
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:208: if '[tool.pyside6-project]' not in content:
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:209: # Add tool.pyside6-project section
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:210: append_content.append('\n[tool.pyside6-project]')
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\pyproject_toml.py:218: print("pyproject.toml already contains [project] and [tool.pyside6-project] sections")
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\utils.py:92: """Return the PySide6 root."""
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\project_lib\__init__.py:8: MOD_CMD = "pyside6-metaobjectdump"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qtpy2cpp_lib\formatter.py:191: # "from PySide6.QtGui import QGuiApplication" or
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qtpy2cpp_lib\formatter.py:192: # "from PySide6 import QtGui"
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\scripts\qtpy2cpp_lib\qt.py:43: "QPainter": ClassFlag.INSTANTIATE_ON_STACK,
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\deprecated.py:12: PySide6.<module> must be named
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:37: global PySide6, inspect, typing, HintingEnumerator, build_brace_pattern
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:38: import PySide6
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:39: from PySide6.support.signature.lib.enum_sig import HintingEnumerator
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:40: from PySide6.support.signature.lib.tool import build_brace_pattern
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:41: from PySide6.support.signature.lib.pyi_generator import generate_pyi
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:45: PySide6.support.signature.mapping.USE_PEP563 = USE_PEP563
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:47: outpath = Path(outpath) if outpath and os.fspath(outpath) else Path(PySide6.__file__).parent
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:48: name_list = PySide6.__all__ if options.modules == ["all"] else options.modules
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:49: errors = ", ".join(set(name_list) - set(PySide6.__all__))
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:53: import_name = "PySide6." + mod_name
+F:\Jarvis-AI\.venv\Lib\site-packages\PySide6\support\generate_pyi.py:58: from PySide6.support import feature

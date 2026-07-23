@@ -1,0 +1,7 @@
+﻿Resolved LLM configuration:
+AI_PROVIDER=groq
+AI_PROVIDER_PRIORITY=groq,gemini,openrouter,ollama,lmstudio
+GROQ_API_KEY exists? True
+GEMINI_API_KEY exists? True
+OPENROUTER_API_KEY exists? True
+[07/23/26 19:52:08] INFO     Worker started                                    

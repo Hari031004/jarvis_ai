@@ -1,0 +1,125 @@
+﻿F:\Jarvis-AI\run_with_ui.py:5: 2. Initializes the PySide6 QApplication and the JarvisWindow HUD interface.
+F:\Jarvis-AI\run_with_ui.py:23: # Add jarvis-ui/project folder to sys.path so PySide6 modules can import ui.*
+F:\Jarvis-AI\run_with_ui.py:28: from PySide6.QtWidgets import QApplication
+F:\Jarvis-AI\run_with_ui.py:40: # 1. Initialize PySide6 Application
+F:\Jarvis-AI\assistant\core\events.py:5: of the project and zero framework dependencies (no PySide6, no psutil,
+F:\Jarvis-AI\assistant\core\event_bus.py:24: • Zero UI-framework dependencies — no PySide6, no Tkinter.
+F:\Jarvis-AI\assistant\ui\bridge.py:24: • Zero UI-framework dependencies (no PySide6, no Tkinter).
+F:\Jarvis-AI\assistant\ui\interface.py:14: • Each adapter (PySide6, Tkinter, Web, CLI, …) translates the event
+F:\Jarvis-AI\assistant\ui\interface.py:118: custom string, e.g. ``"PySide6 Desktop"`` or ``"WebSocket"``.
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:1: """PySide6-specific event dispatcher and UI adapter.
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:3: THIS IS THE ONLY MODULE IN THE ENTIRE JARVIS STACK THAT IMPORTS PySide6.
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:27: ▼  widget.public_method(…)      ← PySide6 widget API
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:60: from PySide6.QtCore import QObject, QTimer
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:115: # to satisfy PySide6's metaclass; super() is not safe here.
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:227: avoid importing PySide6 UI modules here (they are in
+F:\Jarvis-AI\assistant\ui\adapters\pyside_adapter.py:267: return "PySideAdapter (PySide6 Desktop)"
+F:\Jarvis-AI\assistant\ui\adapters\__init__.py:1: """PySide6 UI adapter and dispatcher for JARVIS."""
+F:\Jarvis-AI\jarvis-ui\project\main.py:3: from PySide6.QtWidgets import QApplication
+F:\Jarvis-AI\jarvis-ui\project\main.py:4: from PySide6.QtCore import Qt
+F:\Jarvis-AI\jarvis-ui\project\main.py:5: from PySide6.QtGui import QFont
+F:\Jarvis-AI\jarvis-ui\project\ui\animations.py:13: from PySide6.QtCore import Qt, QTimer, QPointF, Signal, QObject
+F:\Jarvis-AI\jarvis-ui\project\ui\animations.py:14: from PySide6.QtGui import QColor, QLinearGradient, QRadialGradient
+F:\Jarvis-AI\jarvis-ui\project\ui\animations.py:15: from PySide6.QtWidgets import QGraphicsOpacityEffect, QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:2: from PySide6.QtCore import Qt, QPoint, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:3: from PySide6.QtGui import QColor, QPainter
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:4: from PySide6.QtWidgets import (
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:281: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:282: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\main_window.py:283: painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+F:\Jarvis-AI\jarvis-ui\project\ui\theme.py:2: from PySide6.QtGui import QColor, QPalette
+F:\Jarvis-AI\jarvis-ui\project\ui\theme.py:3: from PySide6.QtWidgets import QApplication
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:6: from PySide6.QtCore import QPointF, QRectF, Qt
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:7: from PySide6.QtGui import (
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:10: QPainter,
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:11: QPainterPath,
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:15: from PySide6.QtWidgets import QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:30: painter: QPainter, center: QPointF, radius: float, color: str = Colors.NEON
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:43: painter: QPainter,
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:95: painter: QPainter, rect: QRectF, color: str = Colors.NEON
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:98: painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:104: path = QPainterPath()
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:140: painter = QPainter(widget)
+F:\Jarvis-AI\jarvis-ui\project\ui\utils.py:141: painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:17: from PySide6.QtCore import Qt, QTimer, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:18: from PySide6.QtGui import QColor, QPainter, QTextCursor
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:19: from PySide6.QtWidgets import (
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:78: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:79: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\chat_panel.py:80: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:14: from PySide6.QtCore import Qt, Signal, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:15: from PySide6.QtGui import QColor, QPainter
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:16: from PySide6.QtWidgets import (
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:43: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:44: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\sidebar.py:45: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:2: from PySide6.QtCore import Qt, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:3: from PySide6.QtGui import QColor, QPainter, QPen
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:4: from PySide6.QtWidgets import (
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:24: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:25: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\panels\voice_history.py:26: painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:14: from PySide6.QtCore import Qt, QPointF, QRectF, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:15: from PySide6.QtGui import QColor, QFont, QPainter, QRadialGradient
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:16: from PySide6.QtWidgets import QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:36: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:37: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:38: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:108: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:109: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\clock.py:110: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:19: from PySide6.QtCore import Qt, QPointF, QRectF, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:20: from PySide6.QtGui import (
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:23: QPainter,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:24: QPainterPath,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:28: from PySide6.QtWidgets import QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:144: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:145: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:146: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:159: def _paint_backdrop(self, painter: QPainter, rect: QRectF) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:174: def _paint_grid(self, painter: QPainter, rect: QRectF) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:186: def _paint_links(self, painter: QPainter) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:222: def _paint_particles(self, painter: QPainter) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:239: def _paint_scanline(self, painter: QPainter, rect: QRectF) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\particle_field.py:252: def _paint_vignette(self, painter: QPainter, rect: QRectF) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:5: damping (damp()). Previously the value was mutated inside paintEvent, which
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:19: from PySide6.QtCore import Qt, QPointF, QRectF, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:20: from PySide6.QtGui import (
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:24: QPainter,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:25: QPainterPath,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:28: from PySide6.QtWidgets import QFrame, QHBoxLayout, QLabel, QVBoxLayout, QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:70: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:71: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:72: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:139: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:140: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:141: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:162: path = QPainterPath()
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:181: line = QPainterPath()
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\system_monitor.py:245: from PySide6.QtCore import QTimer
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:22: from PySide6.QtCore import Qt, QPointF, QRectF, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:23: from PySide6.QtGui import (
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:26: QPainter,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:30: from PySide6.QtWidgets import QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:210: # ── paintEvent ───────────────────────────────────────────────────────────
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:212: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:213: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:214: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:239: def _paint_bloom(self, painter: QPainter, center: QPointF, min_side: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:245: def _paint_ring_a(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:257: def _paint_ring_b(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:268: def _paint_outer_ring(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:273: def _paint_bars(self, painter: QPainter, center: QPointF,
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:289: def _paint_inner_ring(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:294: def _paint_orbiters(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:311: def _paint_core(self, painter: QPainter, center: QPointF, r_core: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:329: def _paint_arc_text(self, painter: QPainter, center: QPointF, r: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:341: def _paint_ticks(self, painter: QPainter, center: QPointF, r_outer: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\voice_visualizer.py:357: def _paint_status(self, painter: QPainter, center: QPointF, r_core: float) -> None:
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:13: from PySide6.QtCore import Qt, QPointF, QRectF, QSize
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:14: from PySide6.QtGui import QColor, QFont, QPainter
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:15: from PySide6.QtWidgets import QWidget
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:42: def paintEvent(self, event) -> None:  # noqa: N802
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:43: painter = QPainter(self)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:44: painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+F:\Jarvis-AI\jarvis-ui\project\ui\widgets\weather.py:113: def _draw_sun(self, painter: QPainter, center: QPointF, radius: float) -> None:
